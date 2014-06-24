@@ -1,2 +1,2 @@
-agileleadership
+Agile Leadership
 ===============
