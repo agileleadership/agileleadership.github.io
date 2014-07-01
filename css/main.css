@@ -24,21 +24,18 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
     }
 }
 
 a {
-    color: #28c3ab;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -47,11 +44,6 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
-}
-
-.light {
-    font-weight: 400;
 }
 
 .navbar {
@@ -59,7 +51,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: rgba(44, 44, 44, 0.9);
+    background-color: rgba(27, 31, 35, 0.95);
 }
 
 .navbar-brand {
@@ -242,7 +234,7 @@ a:focus {
 
 .about-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/sky.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -255,7 +247,7 @@ a:focus {
 
 .contact-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0;
     color: #fff;
     background: url(../img/dusk.jpg) no-repeat center center scroll;
     background-attachment: fixed;
@@ -266,10 +258,40 @@ a:focus {
     -o-background-size: cover;
 }
 
-#map {
-    width: 100%;
-    height: 200px;
-    margin-top: 100px;
+.social-section {
+    background-color: #1b1f23;
+}
+
+.social-section a {
+    display: block;
+    height: 220px;
+    background-color: #1b1f23;
+    color: #fff;
+}
+
+.social-section a.twitter:hover,
+.social-section a.twitter:focus {
+    background-color: #08c1e2;
+}
+
+.social-section a.facebook:hover,
+.social-section a.facebook:focus {
+    background-color: #016bb6;
+}
+
+.social-section a.google:hover,
+.social-section a.google:focus {
+    background-color: #d94b34;
+}
+
+.social-section a i {
+    padding-top: 85px;
+}
+
+footer {
+    background-color: #1b1f23;
+    color: #fff;
+    padding: 10px 0;
 }
 
 @media(min-width:767px) {
@@ -279,61 +301,6 @@ a:focus {
 
     .team-section {
         padding: 100px 0;
-    }
-
-    #map {
-        height: 400px;
-        margin-top: 250px;
-    }
-}
-
-.btn {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid #28c3ab;
-    color: #28c3ab;
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #28c3ab;
-    outline: 0;
-    color: #000;
-    background-color: #28c3ab;
-}
-
-.btn-huge {
-    padding: 25px;
-    font-size: 26px;
-}
-
-.banner-social-buttons {
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons>li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons>li:last-child {
-        margin-bottom: 0;
     }
 }
 
