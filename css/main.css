@@ -118,6 +118,13 @@ a:focus {
   font-size: 18px;
 }
 
+.divider {
+  border-top: 1px solid #008ed6;
+  width: 165px;
+  margin: auto;
+  padding-bottom: 35px;
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;
@@ -158,8 +165,8 @@ a:focus {
   -moz-animation-timing-function: linear;
 }
 
-#services {
-
+#services .fa-ul .fa-li {
+  color: #008ed6;
 }
 
 #about {
@@ -175,7 +182,6 @@ a:focus {
 }
 
 #team {
-
 }
 
 #contact {
