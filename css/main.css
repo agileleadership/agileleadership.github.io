@@ -5,6 +5,7 @@ body {
   height: 100%;
   color: #333;
   background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
 }
 
 html {
@@ -45,7 +46,6 @@ a:focus {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
   text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: rgba(0, 0, 0, 0.9);
 }
 
